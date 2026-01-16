@@ -284,7 +284,8 @@ border: 0;
  <thead>
   <tr>
    <th style="text-align:left;"> Predictors </th>
-   <th style="text-align:left;"> n </th>
+   <th style="text-align:left;"> Age </th>
+   <th style="text-align:right;"> n </th>
    <th style="text-align:right;"> R² </th>
    <th style="text-align:right;"> ∆RMSE (vs age, dB HL) </th>
    <th style="text-align:right;"> p (vs age) </th>
@@ -292,102 +293,244 @@ border: 0;
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> Age + SBP </td>
-   <td style="text-align:left;"> 817.2 </td>
-   <td style="text-align:right;"> 0.385 </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="5"> Age </td>
+   <td style="text-align:left;"> 20-30 </td>
+   <td style="text-align:right;"> 47.3 </td>
+   <td style="text-align:right;"> 0.659 </td>
    <td style="text-align:right;"> 0.00 </td>
    <td style="text-align:right;"> ns </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Age + BUN </td>
-   <td style="text-align:left;"> 817.2 </td>
-   <td style="text-align:right;"> 0.385 </td>
+   
+   <td style="text-align:left;"> 30-40 </td>
+   <td style="text-align:right;"> 49.7 </td>
+   <td style="text-align:right;"> 0.428 </td>
    <td style="text-align:right;"> 0.00 </td>
    <td style="text-align:right;"> ns </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Age + MCV </td>
-   <td style="text-align:left;"> 817.2 </td>
-   <td style="text-align:right;"> 0.385 </td>
+   
+   <td style="text-align:left;"> 40-50 </td>
+   <td style="text-align:right;"> 50.7 </td>
+   <td style="text-align:right;"> 0.240 </td>
    <td style="text-align:right;"> 0.00 </td>
    <td style="text-align:right;"> ns </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Age + Lymphs </td>
-   <td style="text-align:left;"> 817.2 </td>
-   <td style="text-align:right;"> 0.386 </td>
-   <td style="text-align:right;"> 0.01 </td>
-   <td style="text-align:right;"> ns </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Age + RDW </td>
-   <td style="text-align:left;"> 817.2 </td>
-   <td style="text-align:right;"> 0.386 </td>
+   
+   <td style="text-align:left;"> 50-60 </td>
+   <td style="text-align:right;"> 39.7 </td>
+   <td style="text-align:right;"> 0.400 </td>
    <td style="text-align:right;"> 0.00 </td>
    <td style="text-align:right;"> ns </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Age + TC </td>
-   <td style="text-align:left;"> 817.2 </td>
-   <td style="text-align:right;"> 0.385 </td>
+   
+   <td style="text-align:left;"> 60-70 </td>
+   <td style="text-align:right;"> 46.0 </td>
+   <td style="text-align:right;"> 0.602 </td>
    <td style="text-align:right;"> 0.00 </td>
    <td style="text-align:right;"> ns </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Age + Creat </td>
-   <td style="text-align:left;"> 817.2 </td>
-   <td style="text-align:right;"> 0.386 </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="5"> Age + HD </td>
+   <td style="text-align:left;"> 20-30 </td>
+   <td style="text-align:right;"> 47.3 </td>
+   <td style="text-align:right;"> 0.660 </td>
+   <td style="text-align:right;"> 0.01 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;"> 30-40 </td>
+   <td style="text-align:right;"> 49.7 </td>
+   <td style="text-align:right;"> 0.432 </td>
+   <td style="text-align:right;"> 0.03 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;"> 40-50 </td>
+   <td style="text-align:right;"> 50.7 </td>
+   <td style="text-align:right;"> 0.237 </td>
+   <td style="text-align:right;"> -0.02 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;"> 50-60 </td>
+   <td style="text-align:right;"> 39.7 </td>
+   <td style="text-align:right;"> 0.397 </td>
+   <td style="text-align:right;"> -0.04 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;"> 60-70 </td>
+   <td style="text-align:right;"> 46.0 </td>
+   <td style="text-align:right;"> 0.605 </td>
+   <td style="text-align:right;"> 0.05 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="5"> Age + KDM </td>
+   <td style="text-align:left;"> 20-30 </td>
+   <td style="text-align:right;"> 47.3 </td>
+   <td style="text-align:right;"> 0.659 </td>
    <td style="text-align:right;"> 0.00 </td>
    <td style="text-align:right;"> ns </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Age + UA </td>
-   <td style="text-align:left;"> 817.2 </td>
-   <td style="text-align:right;"> 0.387 </td>
-   <td style="text-align:right;"> 0.01 </td>
+   
+   <td style="text-align:left;"> 30-40 </td>
+   <td style="text-align:right;"> 49.7 </td>
+   <td style="text-align:right;"> 0.444 </td>
+   <td style="text-align:right;"> 0.14 </td>
    <td style="text-align:right;"> ns </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Age + Glc </td>
-   <td style="text-align:left;"> 817.2 </td>
-   <td style="text-align:right;"> 0.386 </td>
-   <td style="text-align:right;"> 0.01 </td>
+   
+   <td style="text-align:left;"> 40-50 </td>
+   <td style="text-align:right;"> 50.7 </td>
+   <td style="text-align:right;"> 0.244 </td>
+   <td style="text-align:right;"> 0.04 </td>
    <td style="text-align:right;"> ns </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Age + WBC </td>
-   <td style="text-align:left;"> 817.2 </td>
-   <td style="text-align:right;"> 0.388 </td>
-   <td style="text-align:right;"> 0.01 </td>
+   
+   <td style="text-align:left;"> 50-60 </td>
+   <td style="text-align:right;"> 39.7 </td>
+   <td style="text-align:right;"> 0.400 </td>
+   <td style="text-align:right;"> 0.00 </td>
    <td style="text-align:right;"> ns </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Age + ALP </td>
-   <td style="text-align:left;"> 817.2 </td>
-   <td style="text-align:right;"> 0.387 </td>
-   <td style="text-align:right;"> 0.01 </td>
+   
+   <td style="text-align:left;"> 60-70 </td>
+   <td style="text-align:right;"> 46.0 </td>
+   <td style="text-align:right;"> 0.606 </td>
+   <td style="text-align:right;"> 0.08 </td>
    <td style="text-align:right;"> ns </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Age + ALB </td>
-   <td style="text-align:left;"> 817.2 </td>
-   <td style="text-align:right;"> 0.387 </td>
-   <td style="text-align:right;"> 0.01 </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="5"> Age + PhenoAge </td>
+   <td style="text-align:left;"> 20-30 </td>
+   <td style="text-align:right;"> 47.3 </td>
+   <td style="text-align:right;"> 0.657 </td>
+   <td style="text-align:right;"> -0.02 </td>
    <td style="text-align:right;"> ns </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Age + HbA1c </td>
-   <td style="text-align:left;"> 817.2 </td>
-   <td style="text-align:right;"> 0.387 </td>
-   <td style="text-align:right;"> 0.01 </td>
+   
+   <td style="text-align:left;"> 30-40 </td>
+   <td style="text-align:right;"> 49.7 </td>
+   <td style="text-align:right;"> 0.434 </td>
+   <td style="text-align:right;"> 0.05 </td>
    <td style="text-align:right;"> ns </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Age + CRP </td>
-   <td style="text-align:left;"> 817.2 </td>
-   <td style="text-align:right;"> 0.389 </td>
+   
+   <td style="text-align:left;"> 40-50 </td>
+   <td style="text-align:right;"> 50.7 </td>
+   <td style="text-align:right;"> 0.240 </td>
+   <td style="text-align:right;"> 0.00 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;"> 50-60 </td>
+   <td style="text-align:right;"> 39.7 </td>
+   <td style="text-align:right;"> 0.402 </td>
    <td style="text-align:right;"> 0.02 </td>
-   <td style="text-align:right;"> <span style=" font-weight: bold;    ">0.024</span> </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;"> 60-70 </td>
+   <td style="text-align:right;"> 46.0 </td>
+   <td style="text-align:right;"> 0.608 </td>
+   <td style="text-align:right;"> 0.12 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="5"> Age + Telolength </td>
+   <td style="text-align:left;"> 20-30 </td>
+   <td style="text-align:right;"> 47.3 </td>
+   <td style="text-align:right;"> 0.656 </td>
+   <td style="text-align:right;"> -0.04 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;"> 30-40 </td>
+   <td style="text-align:right;"> 49.7 </td>
+   <td style="text-align:right;"> 0.428 </td>
+   <td style="text-align:right;"> -0.01 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;"> 40-50 </td>
+   <td style="text-align:right;"> 50.7 </td>
+   <td style="text-align:right;"> 0.239 </td>
+   <td style="text-align:right;"> -0.01 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;"> 50-60 </td>
+   <td style="text-align:right;"> 39.7 </td>
+   <td style="text-align:right;"> 0.401 </td>
+   <td style="text-align:right;"> 0.00 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;"> 60-70 </td>
+   <td style="text-align:right;"> 46.0 </td>
+   <td style="text-align:right;"> 0.602 </td>
+   <td style="text-align:right;"> 0.00 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="5"> Age + Telolength (Log) </td>
+   <td style="text-align:left;"> 20-30 </td>
+   <td style="text-align:right;"> 47.3 </td>
+   <td style="text-align:right;"> 0.656 </td>
+   <td style="text-align:right;"> -0.04 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;"> 30-40 </td>
+   <td style="text-align:right;"> 49.7 </td>
+   <td style="text-align:right;"> 0.428 </td>
+   <td style="text-align:right;"> 0.00 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;"> 40-50 </td>
+   <td style="text-align:right;"> 50.7 </td>
+   <td style="text-align:right;"> 0.240 </td>
+   <td style="text-align:right;"> 0.00 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;"> 50-60 </td>
+   <td style="text-align:right;"> 39.7 </td>
+   <td style="text-align:right;"> 0.401 </td>
+   <td style="text-align:right;"> 0.01 </td>
+   <td style="text-align:right;"> ns </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;"> 60-70 </td>
+   <td style="text-align:right;"> 46.0 </td>
+   <td style="text-align:right;"> 0.602 </td>
+   <td style="text-align:right;"> 0.00 </td>
+   <td style="text-align:right;"> ns </td>
   </tr>
 </tbody>
 </table>
