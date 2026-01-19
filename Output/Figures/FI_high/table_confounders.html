@@ -283,206 +283,146 @@ border: 0;
 <table class="table table-striped table-hover table-condensed" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;"> Predictors </th>
-   <th style="text-align:left;"> Age </th>
-   <th style="text-align:right;"> n </th>
-   <th style="text-align:right;"> R² </th>
-   <th style="text-align:right;"> ∆RMSE (vs age, dB HL) </th>
-   <th style="text-align:right;"> p (vs age) </th>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:left;">    </th>
+   <th style="text-align:right;"> 20-30 </th>
+   <th style="text-align:right;"> 30-40 </th>
+   <th style="text-align:right;"> 40-50 </th>
+   <th style="text-align:right;"> 50-60 </th>
+   <th style="text-align:right;"> 60-70 </th>
+   <th style="text-align:right;"> 70+ </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;vertical-align: top !important;" rowspan="6"> Age </td>
-   <td style="text-align:left;"> 20-30 </td>
-   <td style="text-align:right;"> 1494 </td>
-   <td style="text-align:right;"> 0.638 </td>
-   <td style="text-align:right;">  </td>
-   <td style="text-align:right;">  </td>
+   <td style="text-align:left;"> Gender </td>
+   <td style="text-align:left;"> Male </td>
+   <td style="text-align:right;"> 11.87 (10.09) </td>
+   <td style="text-align:right;"> 18.08 (12.43) </td>
+   <td style="text-align:right;"> 25.03 (14.73) </td>
+   <td style="text-align:right;"> 37.34 (18.85) </td>
+   <td style="text-align:right;"> 48.73 (20.23) </td>
+   <td style="text-align:right;"> 60.23 (18.26) </td>
   </tr>
   <tr>
-   
-   <td style="text-align:left;"> 30-40 </td>
-   <td style="text-align:right;"> 1518 </td>
-   <td style="text-align:right;"> 0.429 </td>
-   <td style="text-align:right;">  </td>
-   <td style="text-align:right;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Female </td>
+   <td style="text-align:right;"> 9.52 (6.50) </td>
+   <td style="text-align:right;"> 12.76 (8.23) </td>
+   <td style="text-align:right;"> 16.49 (9.19) </td>
+   <td style="text-align:right;"> 23.95 (13.15) </td>
+   <td style="text-align:right;"> 33.78 (15.53) </td>
+   <td style="text-align:right;"> 46.91 (16.89) </td>
   </tr>
   <tr>
-   
-   <td style="text-align:left;"> 40-50 </td>
-   <td style="text-align:right;"> 1366 </td>
-   <td style="text-align:right;"> 0.236 </td>
-   <td style="text-align:right;">  </td>
-   <td style="text-align:right;">  </td>
+   <td style="text-align:left;"> Smoking </td>
+   <td style="text-align:left;"> Smoker </td>
+   <td style="text-align:right;"> 12.29 (10.08) </td>
+   <td style="text-align:right;"> 17.15 (11.17) </td>
+   <td style="text-align:right;"> 23.05 (13.80) </td>
+   <td style="text-align:right;"> 35.42 (18.95) </td>
+   <td style="text-align:right;"> 43.98 (20.17) </td>
+   <td style="text-align:right;"> 55.50 (19.21) </td>
   </tr>
   <tr>
-   
-   <td style="text-align:left;"> 50-60 </td>
-   <td style="text-align:right;"> 984 </td>
-   <td style="text-align:right;"> 0.074 </td>
-   <td style="text-align:right;">  </td>
-   <td style="text-align:right;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Non-smoker </td>
+   <td style="text-align:right;"> 9.99 (7.74) </td>
+   <td style="text-align:right;"> 14.33 (10.65) </td>
+   <td style="text-align:right;"> 19.43 (12.41) </td>
+   <td style="text-align:right;"> 30.11 (17.06) </td>
+   <td style="text-align:right;"> 37.33 (17.86) </td>
+   <td style="text-align:right;"> 51.59 (18.14) </td>
   </tr>
   <tr>
-   
-   <td style="text-align:left;"> 60-70 </td>
-   <td style="text-align:right;"> 1438 </td>
-   <td style="text-align:right;"> 0.207 </td>
-   <td style="text-align:right;">  </td>
-   <td style="text-align:right;">  </td>
+   <td style="text-align:left;"> Race </td>
+   <td style="text-align:left;"> Hispanic </td>
+   <td style="text-align:right;"> 11.16 (7.44) </td>
+   <td style="text-align:right;"> 16.27 (11.50) </td>
+   <td style="text-align:right;"> 20.91 (12.19) </td>
+   <td style="text-align:right;"> 34.17 (18.37) </td>
+   <td style="text-align:right;"> 41.91 (19.29) </td>
+   <td style="text-align:right;"> 51.36 (18.52) </td>
   </tr>
   <tr>
-   
-   <td style="text-align:left;"> 70+ </td>
-   <td style="text-align:right;"> 1372 </td>
-   <td style="text-align:right;"> 0.492 </td>
-   <td style="text-align:right;">  </td>
-   <td style="text-align:right;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> White </td>
+   <td style="text-align:right;"> 11.14 (9.16) </td>
+   <td style="text-align:right;"> 16.39 (11.68) </td>
+   <td style="text-align:right;"> 23.08 (14.85) </td>
+   <td style="text-align:right;"> 35.32 (19.67) </td>
+   <td style="text-align:right;"> 43.79 (19.99) </td>
+   <td style="text-align:right;"> 57.50 (18.31) </td>
   </tr>
   <tr>
-   <td style="text-align:left;vertical-align: top !important;" rowspan="6"> Age + KDM </td>
-   <td style="text-align:left;"> 20-30 </td>
-   <td style="text-align:right;"> 1494 </td>
-   <td style="text-align:right;"> 0.639 </td>
-   <td style="text-align:right;"> 0 </td>
-   <td style="text-align:right;"> ns </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Black </td>
+   <td style="text-align:right;"> 9.73 (8.46) </td>
+   <td style="text-align:right;"> 13.22 (7.99) </td>
+   <td style="text-align:right;"> 17.61 (10.01) </td>
+   <td style="text-align:right;"> 27.36 (13.26) </td>
+   <td style="text-align:right;"> 32.59 (15.36) </td>
+   <td style="text-align:right;"> 43.18 (16.92) </td>
   </tr>
   <tr>
-   
-   <td style="text-align:left;"> 30-40 </td>
-   <td style="text-align:right;"> 1518 </td>
-   <td style="text-align:right;"> 0.435 </td>
-   <td style="text-align:right;"> 0.03 </td>
-   <td style="text-align:right;"> ns </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Other </td>
+   <td style="text-align:right;"> 10.31 (10.52) </td>
+   <td style="text-align:right;"> 14.21 (10.29) </td>
+   <td style="text-align:right;"> 21.65 (13.82) </td>
+   <td style="text-align:right;"> 29.75 (16.42) </td>
+   <td style="text-align:right;"> 42.47 (20.52) </td>
+   <td style="text-align:right;"> 48.93 (16.56) </td>
   </tr>
   <tr>
-   
-   <td style="text-align:left;"> 40-50 </td>
-   <td style="text-align:right;"> 1366 </td>
-   <td style="text-align:right;"> 0.245 </td>
-   <td style="text-align:right;"> 0.04 </td>
-   <td style="text-align:right;"> ns </td>
+   <td style="text-align:left;"> Education </td>
+   <td style="text-align:left;"> &lt; 9th grade </td>
+   <td style="text-align:right;"> 14.03 (9.20) </td>
+   <td style="text-align:right;"> 19.28 (14.56) </td>
+   <td style="text-align:right;"> 23.80 (12.07) </td>
+   <td style="text-align:right;"> 36.92 (19.26) </td>
+   <td style="text-align:right;"> 45.42 (19.72) </td>
+   <td style="text-align:right;"> 58.65 (19.83) </td>
   </tr>
   <tr>
-   
-   <td style="text-align:left;"> 50-60 </td>
-   <td style="text-align:right;"> 984 </td>
-   <td style="text-align:right;"> 0.081 </td>
-   <td style="text-align:right;"> 0.03 </td>
-   <td style="text-align:right;"> ns </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 9-11th grade </td>
+   <td style="text-align:right;"> 12.58 (9.49) </td>
+   <td style="text-align:right;"> 17.19 (10.14) </td>
+   <td style="text-align:right;"> 23.36 (14.49) </td>
+   <td style="text-align:right;"> 37.41 (19.01) </td>
+   <td style="text-align:right;"> 41.76 (19.84) </td>
+   <td style="text-align:right;"> 54.93 (18.75) </td>
   </tr>
   <tr>
-   
-   <td style="text-align:left;"> 60-70 </td>
-   <td style="text-align:right;"> 1438 </td>
-   <td style="text-align:right;"> 0.210 </td>
-   <td style="text-align:right;"> 0.02 </td>
-   <td style="text-align:right;"> ns </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> High school </td>
+   <td style="text-align:right;"> 12.66 (9.98) </td>
+   <td style="text-align:right;"> 17.63 (11.88) </td>
+   <td style="text-align:right;"> 23.12 (14.68) </td>
+   <td style="text-align:right;"> 31.39 (18.04) </td>
+   <td style="text-align:right;"> 40.98 (19.39) </td>
+   <td style="text-align:right;"> 53.83 (17.67) </td>
   </tr>
   <tr>
-   
-   <td style="text-align:left;"> 70+ </td>
-   <td style="text-align:right;"> 1372 </td>
-   <td style="text-align:right;"> 0.492 </td>
-   <td style="text-align:right;"> -0.01 </td>
-   <td style="text-align:right;"> ns </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Some college or AA degree </td>
+   <td style="text-align:right;"> 9.35 (7.87) </td>
+   <td style="text-align:right;"> 14.78 (10.40) </td>
+   <td style="text-align:right;"> 19.53 (12.13) </td>
+   <td style="text-align:right;"> 33.04 (18.25) </td>
+   <td style="text-align:right;"> 38.72 (19.30) </td>
+   <td style="text-align:right;"> 50.79 (19.06) </td>
   </tr>
   <tr>
-   <td style="text-align:left;vertical-align: top !important;" rowspan="6"> Age + PhenoAge </td>
-   <td style="text-align:left;"> 20-30 </td>
-   <td style="text-align:right;"> 1494 </td>
-   <td style="text-align:right;"> 0.639 </td>
-   <td style="text-align:right;"> 0.01 </td>
-   <td style="text-align:right;"> ns </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;"> 30-40 </td>
-   <td style="text-align:right;"> 1518 </td>
-   <td style="text-align:right;"> 0.437 </td>
-   <td style="text-align:right;"> 0.04 </td>
-   <td style="text-align:right;"> ns </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;"> 40-50 </td>
-   <td style="text-align:right;"> 1366 </td>
-   <td style="text-align:right;"> 0.242 </td>
-   <td style="text-align:right;"> 0.03 </td>
-   <td style="text-align:right;"> ns </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;"> 50-60 </td>
-   <td style="text-align:right;"> 984 </td>
-   <td style="text-align:right;"> 0.090 </td>
-   <td style="text-align:right;"> 0.08 </td>
-   <td style="text-align:right;"> <span style=" font-weight: bold;    ">0.037</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;"> 60-70 </td>
-   <td style="text-align:right;"> 1438 </td>
-   <td style="text-align:right;"> 0.215 </td>
-   <td style="text-align:right;"> 0.05 </td>
-   <td style="text-align:right;"> ns </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;"> 70+ </td>
-   <td style="text-align:right;"> 1372 </td>
-   <td style="text-align:right;"> 0.496 </td>
-   <td style="text-align:right;"> 0.04 </td>
-   <td style="text-align:right;"> ns </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;vertical-align: top !important;" rowspan="6"> NA </td>
-   <td style="text-align:left;"> 20-30 </td>
-   <td style="text-align:right;"> 1494 </td>
-   <td style="text-align:right;"> 0.638 </td>
-   <td style="text-align:right;"> -0.01 </td>
-   <td style="text-align:right;"> ns </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;"> 30-40 </td>
-   <td style="text-align:right;"> 1518 </td>
-   <td style="text-align:right;"> 0.429 </td>
-   <td style="text-align:right;"> 0 </td>
-   <td style="text-align:right;"> ns </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;"> 40-50 </td>
-   <td style="text-align:right;"> 1366 </td>
-   <td style="text-align:right;"> 0.239 </td>
-   <td style="text-align:right;"> 0.01 </td>
-   <td style="text-align:right;"> ns </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;"> 50-60 </td>
-   <td style="text-align:right;"> 984 </td>
-   <td style="text-align:right;"> 0.076 </td>
-   <td style="text-align:right;"> 0.01 </td>
-   <td style="text-align:right;"> ns </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;"> 60-70 </td>
-   <td style="text-align:right;"> 1438 </td>
-   <td style="text-align:right;"> 0.212 </td>
-   <td style="text-align:right;"> 0.03 </td>
-   <td style="text-align:right;"> ns </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;"> 70+ </td>
-   <td style="text-align:right;"> 1372 </td>
-   <td style="text-align:right;"> 0.491 </td>
-   <td style="text-align:right;"> -0.02 </td>
-   <td style="text-align:right;"> ns </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> College graduate or higher </td>
+   <td style="text-align:right;"> 8.88 (6.41) </td>
+   <td style="text-align:right;"> 12.51 (8.75) </td>
+   <td style="text-align:right;"> 18.74 (12.13) </td>
+   <td style="text-align:right;"> 31.05 (17.50) </td>
+   <td style="text-align:right;"> 38.34 (18.11) </td>
+   <td style="text-align:right;"> 53.25 (18.88) </td>
   </tr>
 </tbody>
 </table>
